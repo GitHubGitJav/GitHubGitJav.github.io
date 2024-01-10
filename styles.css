@@ -1,0 +1,146 @@
+/* Estilo para el cuerpo de la página */
+body {
+    /* Fuente del texto principal */
+    font-family: 'Arial', sans-serif;
+    /* Elimina los márgenes predeterminados del cuerpo */
+    margin: 0;
+    /* Elimina el relleno predeterminado del cuerpo */
+    padding: 0;
+    /* La caja incluye bordes y relleno en el tamaño total */
+    box-sizing: border-box;
+    /* Color de fondo gris claro */
+    background-color: #f8f8f8;
+    /* Color del texto principal */
+    color: #333;
+}
+
+/* Estilo para la cabecera/header de la página */
+header {
+    /* Color de fondo azul fuerte */
+    background-color: #173ece;
+    /* Color del texto en la cabecera (blanco) */
+    color: #fff;
+    /* Alineación del texto al centro */
+    text-align: center;
+    /* Espaciado interno de 20 píxeles en todas las direcciones */
+    padding: 20px;
+}
+
+/* Estilo para la imagen dentro de la cabecera */
+header img {
+    /* Borde redondeado a la imagen (forma de círculo) */
+    border-radius: 50%;
+    /*Ancho máximo de la imagen */
+    max-width: 150px;
+    /* Autoajusta la altura para mantener la proporción original */
+    height: auto;
+}
+
+/* Estilo para centrar la imagen en cualquier sección */
+.alinear-centro-imagen {
+    /* Alinea el contenido, en este caso la imagen, en el centro */
+    text-align: center;
+}
+
+/* Estilo para el ícono de FontAwesome */
+.fa-eye {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Estilo cuando el puntero pasa sobre el ícono */
+.fa-eye:hover {
+    transform: scale(1.2);
+}
+
+/* Estilo para el contenedor de la rejilla con tres columnas y espacio entre ellas */
+.grid-container {
+    /* Utiliza la propiedad de rejilla para organizar el diseño */
+    display: grid;
+    /* Crea tres columnas con igual anchura */
+    grid-template-columns: repeat(3, 1fr);
+    /* Establece un espacio de 20px entre las columnas y filas de la rejilla */
+    gap: 20px;
+}
+
+/* Estilo para los elementos dentro de la rejilla */
+.grid-item {
+    /* Establece un margen externo de 20px alrededor del elemento */
+    margin: 20px;
+    /* Establece un relleno interno de 20px dentro del elemento */
+    padding: 20px;
+    /* Fondo de color gris claro (#ccc) para los elementos */
+    background-color: #ccc;
+    /* Agrega una sombra suave alrededor del elemento */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las secciones en la página */
+section {
+    /* Establece un margen externo de 20px alrededor de la sección */
+    margin: 20px;
+    /* Establece un relleno interno de 20px dentro de la sección */
+    padding: 20px;
+    /* Fondo blanco (#fff) para las secciones */
+    background-color: #fff;
+    /* Agrega una sombra suave alrededor de la sección */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los títulos de nivel 2 (h2) en la página */
+h2 {
+    /* Color azul fuerte (#3498db) para los títulos h2 */
+    color: #3498db;
+    /* Centra el texto horizontalmente dentro del contenedor */
+    text-align: center;
+    /* Agrega un espacio adicional debajo del título h2 */
+    margin-bottom: 20px;
+}
+
+/* Estilo para los párrafos (p) y elementos de lista (li) en la página */
+p,
+li {
+    /* Justifica el texto dentro de los párrafos y elementos de lista */
+    text-align: justify;
+}
+
+/* Estilo para centrar el texto dentro de los párrafos específicos de las secciones 'formacion' e 'idiomas' */
+#formacion p,
+#idiomas p {
+    /* Centra el texto dentro de los párrafos */
+    text-align: center;
+}
+
+/* Estilo para centrar imágenes dentro de párrafos específicos en la sección de proyectos */
+#proyectos p.centrar-imagen {
+    /* Centra el contenido de los párrafos con la clase "centrar-imagen" dentro de la sección de proyectos */
+    text-align: center;
+}
+
+/* Estilo para imágenes dentro de la sección de proyectos */
+#proyectos img {
+    /* Ancho máximo de las imágenes */
+    width: 150px;
+    /* Altura automática para mantener la proporción original */
+    height: auto;
+    /* Configura las imágenes como elementos en línea para alineación adecuada */
+    display: inline-block;
+}
+
+/* Estilo para el pie de página */
+footer {
+    /* Centra el texto en el pie de página */
+    text-align: center;
+    /* Espaciado interno de 10px alrededor del contenido del pie de página */
+    padding: 10px;
+    /* Fondo azul */
+    background-color: #5273eb;
+    /* Texto blanco */
+    color: #fff;
+}
+
+/* Estilo para la clase 'footer-text' */
+.footer-text {
+    /* Centra el texto dentro del pie de página */
+    text-align: center;
+}
